@@ -1,0 +1,57 @@
+{
+    "About": {
+        "title": "About",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Careers": {
+        "title": "Careers",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Press": {
+        "title": "Press",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Portfolio": {
+        "title": "Portfolio",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Trading": {
+        "title": "Trading",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Wallet": {
+        "title": "Wallet",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Learn": {
+        "title": "Learn",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Support": {
+        "title": "Support",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "API": {
+        "title": "API",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Twitter": {
+        "title": "Twitter",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    },
+    "Github": {
+        "title": "Github",
+        "href": "#",
+        "className": "hover:text-white transition-colors"
+    }
+}
