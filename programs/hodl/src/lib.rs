@@ -16,7 +16,8 @@ pub mod hodl {
         ctx.accounts.init(&ctx.bumps, locked_duration)
     }
 
-    // pub fn deposit(ctx: Context<Deposit>, amount: u64) -> Result<()> {
-    //     ctx.accounts.deposit(amount)
-    // }
+    pub fn deposit(ctx: Context<LockFunds>, amount: u64, unlock_at: i64) -> Result<()> {
+        ctx.accounts.lock_funds(amount, unlock_at, &ctx.bumps);
+        ctx.accounts.transfer(amount)
+    }
 }
