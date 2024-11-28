@@ -24,7 +24,7 @@
               {(Object.keys(navItems) as Array<keyof typeof navItems>).map((key) => (
                 <Link
                   key={key}
-                  href={navItems[key].href}
+                  to={navItems[key].href}
                   className={navItems[key].className}
                 >
                   {navItems[key].title}
@@ -57,7 +57,7 @@
                 {(Object.keys(navItems) as Array<keyof typeof navItems>).map((key) => (
                   <Link
                     key={key}
-                    href={navItems[key].href}
+                    to={navItems[key].href}
                     className={`block ${navItems[key].className}`}
                   >
                     {navItems[key].title}

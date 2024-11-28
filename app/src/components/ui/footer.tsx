@@ -59,10 +59,10 @@ export const Footer = () => (
         <div>
           <h3 className="text-lg font-semibold mb-4">Connect</h3>
           <div className="flex space-x-4">
-            <Link href="https://twitter.com/10Xpraash" className="hover:text-white transition-colors">
+            <Link to="https://twitter.com/10Xpraash" className="hover:text-white transition-colors">
               <Twitter size={24} />
             </Link>
-            <Link href="https://github.com/praashh" className="hover:text-white transition-colors">
+            <Link to="https://github.com/praashh" className="hover:text-white transition-colors">
               <Github size={24} />
             </Link>
           </div>
